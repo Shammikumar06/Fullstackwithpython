@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web-Page</title>
+    </head>
+    <style>
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: burlywood;
+            min-width: 160px;
+            padding: auto;
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+    </style>
+
+</html>
+<body>
+    <div class="dropdown">
+        <span>Hover over me</span>
+    <div class="dropdown-content">
+        <p>Hello World</p>
+        <p>Good Morning</p>
+    </div>
+</body>
+</html>
