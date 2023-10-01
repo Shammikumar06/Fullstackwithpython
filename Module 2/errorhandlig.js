@@ -13,7 +13,7 @@ try{
     x=z+1*2;
     console.log(x);
 }catch(Error){
-   // throw Error.name;
+   // throw Error.name;                               // in catch and finally we can give console
     console.log(Error.name);
 }finally{
     console.log("Failed to convert");
